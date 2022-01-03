@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mmxl PUBLIC "-//Kreative//DTD MoreMoreXmasLights 1.0//EN" "http://www.kreativekorp.com/dtd/mmxlx.dtd">
+<mmxl>
+	<color-pattern name="Crystal">
+		<color r="255" g="255" b="255" />
+	</color-pattern>
+
+	<color-pattern name="Warm White">
+		<color r="255" g="221" b="153" />
+	</color-pattern>
+
+	<color-pattern name="Icicle">
+		<color r="0"   g="128" b="255" />
+	</color-pattern>
+
+	<color-pattern name="Multicolor Mini">
+		<color r="255" g="0"   b="0"   />
+		<color r="0"   g="0"   b="255" />
+		<color r="0"   g="255" b="0"   />
+		<color r="255" g="0"   b="255" />
+		<color r="255" g="192" b="0"   />
+	</color-pattern>
+
+	<color-pattern name="Multicolor Solid">
+		<color r="255" g="0"   b="0"   />
+		<color r="0"   g="0"   b="255" />
+		<color r="255" g="255" b="255" />
+		<color r="255" g="128" b="0"   />
+		<color r="0"   g="255" b="0"   />
+	</color-pattern>
+
+	<color-pattern name="Multicolor Translucent">
+		<color r="255" g="0"   b="0"   />
+		<color r="0"   g="0"   b="255" />
+		<color r="0"   g="255" b="0"   />
+		<color r="255" g="255" b="0"   />
+		<color r="255" g="0"   b="255" />
+	</color-pattern>
+
+	<color-pattern name="Rainbow">
+		<color r="255" g="0"   b="0"   />
+		<color r="255" g="128" b="0"   />
+		<color r="255" g="255" b="0"   />
+		<color r="0"   g="255" b="0"   />
+		<color r="0"   g="255" b="255" />
+		<color r="0"   g="0"   b="255" />
+		<color r="128" g="0"   b="255" />
+		<color r="255" g="0"   b="255" />
+	</color-pattern>
+
+	<color-pattern name="Pastel">
+		<color r="255" g="128" b="128" />
+		<color r="255" g="192" b="128" />
+		<color r="255" g="255" b="128" />
+		<color r="128" g="255" b="128" />
+		<color r="128" g="255" b="255" />
+		<color r="128" g="128" b="255" />
+		<color r="192" g="128" b="255" />
+		<color r="255" g="128" b="255" />
+	</color-pattern>
+
+	<color-pattern name="Candy Cane">
+		<color r="255" g="0"   b="0"   />
+		<color r="255" g="255" b="255" />
+	</color-pattern>
+
+	<color-pattern name="Noel">
+		<color r="255" g="0"   b="0"   />
+		<color r="0"   g="255" b="0"   />
+	</color-pattern>
+
+	<color-pattern name="Cabana">
+		<color r="0"   g="0"   b="255" />
+		<color r="255" g="255" b="255" />
+	</color-pattern>
+
+	<color-pattern name="Ocean">
+		<color r="0"   g="0"   b="255" />
+		<color r="0"   g="255" b="0"   />
+	</color-pattern>
+
+	<blink-pattern name="Steady" framedur="1000" strands="1">
+		<frame levels="255"/>
+	</blink-pattern>
+
+	<blink-pattern name="Blink" framedur="1000" strands="1">
+		<frame levels="255"/>
+		<frame levels="0  "/>
+	</blink-pattern>
+
+	<blink-pattern name="Fast Fade" framedur="50" strands="1">
+		<frame levels="255"/>
+		<frame levels="238"/>
+		<frame levels="221"/>
+		<frame levels="204"/>
+		<frame levels="187"/>
+		<frame levels="170"/>
+		<frame levels="153"/>
+		<frame levels="136"/>
+		<frame levels="119"/>
+		<frame levels="102"/>
+		<frame levels="85 "/>
+		<frame levels="68 "/>
+		<frame levels="51 "/>
+		<frame levels="34 "/>
+		<frame levels="17 "/>
+		<frame levels="0  "/>
+		<frame levels="17 "/>
+		<frame levels="34 "/>
+		<frame levels="51 "/>
+		<frame levels="68 "/>
+		<frame levels="85 "/>
+		<frame levels="102"/>
+		<frame levels="119"/>
+		<frame levels="136"/>
+		<frame levels="153"/>
+		<frame levels="170"/>
+		<frame levels="187"/>
+		<frame levels="204"/>
+		<frame levels="221"/>
+		<frame levels="238"/>
+	</blink-pattern>
+
+	<blink-pattern name="Chase 1 of 2" framedur="200" strands="2">
+		<frame levels="255 0  "/>
+		<frame levels="0   255"/>
+	</blink-pattern>
+
+	<blink-pattern name="Chase 1 of 3" framedur="160" strands="3">
+		<frame levels="255 0   0  "/>
+		<frame levels="0   255 0  "/>
+		<frame levels="0   0   255"/>
+	</blink-pattern>
+
+	<blink-pattern name="Chase 1 of 4" framedur="120" strands="4">
+		<frame levels="255 0   0   0  "/>
+		<frame levels="0   255 0   0  "/>
+		<frame levels="0   0   255 0  "/>
+		<frame levels="0   0   0   255"/>
+	</blink-pattern>
+
+	<blink-pattern name="Chase 2 of 3" framedur="160" strands="3">
+		<frame levels="255 255 0  "/>
+		<frame levels="0   255 255"/>
+		<frame levels="255 0   255"/>
+	</blink-pattern>
+
+	<blink-pattern name="Chase 2 of 4" framedur="120" strands="4">
+		<frame levels="255 255 0   0  "/>
+		<frame levels="0   255 255 0  "/>
+		<frame levels="0   0   255 255"/>
+		<frame levels="255 0   0   255"/>
+	</blink-pattern>
+
+	<blink-pattern name="Chase 3 of 4" framedur="120" strands="4">
+		<frame levels="255 255 255 0  "/>
+		<frame levels="0   255 255 255"/>
+		<frame levels="255 0   255 255"/>
+		<frame levels="255 255 0   255"/>
+	</blink-pattern>
+
+	<blink-pattern name="Walk 3" framedur="160" strands="3">
+		<frame levels="255 0   0  "/>
+		<frame levels="255 255 0  "/>
+		<frame levels="0   255 0  "/>
+		<frame levels="0   255 255"/>
+		<frame levels="0   0   255"/>
+		<frame levels="255 0   255"/>
+	</blink-pattern>
+
+	<blink-pattern name="Walk 4" framedur="120" strands="4">
+		<frame levels="255 0   0   0  "/>
+		<frame levels="255 255 0   0  "/>
+		<frame levels="0   255 0   0  "/>
+		<frame levels="0   255 255 0  "/>
+		<frame levels="0   0   255 0  "/>
+		<frame levels="0   0   255 255"/>
+		<frame levels="0   0   0   255"/>
+		<frame levels="255 0   0   255"/>
+	</blink-pattern>
+
+	<blink-pattern name="Oscillate 3" framedur="160" strands="3">
+		<frame levels="255 0   0  "/>
+		<frame levels="0   255 0  "/>
+		<frame levels="0   0   255"/>
+		<frame levels="0   255 0  "/>
+	</blink-pattern>
+
+	<blink-pattern name="Oscillate 4" framedur="120" strands="4">
+		<frame levels="255 0   0   0  "/>
+		<frame levels="0   255 0   0  "/>
+		<frame levels="0   0   255 0  "/>
+		<frame levels="0   0   0   255"/>
+		<frame levels="0   0   255 0  "/>
+		<frame levels="0   255 0   0  "/>
+	</blink-pattern>
+</mmxl>

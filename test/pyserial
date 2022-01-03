@@ -1,0 +1,15 @@
+import serial
+
+ser = serial.Serial('COM8',9600, timeout=1)
+
+raw_serial = ()
+strip_serial = []
+
+ser.write('hello'.encode('utf-8'))
+while True:
+    raw_serial = (ser.read().decode('utf-8'))
+    strip_serial.append(raw_serial.strip())
+    x = input("poggies")
+    if(x == "yes"):
+        print(serial)
+    
